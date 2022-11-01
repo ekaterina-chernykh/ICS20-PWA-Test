@@ -19,5 +19,12 @@ if (navigator.serviceWorker) {
  * This function displays an alert.
  */
 function myButtonClicked() {
-  document.getElementById("hello-world").innerHTML = "<p>Hello, World!</p>"
+  // input
+  const height = parseFloat(document.getElementById("height").value)
+
+  // process
+  const volume = 
+
+  // output
+  document.getElementById("volume").innerHTML = "Volume is: " + volume + "mm³"
 }
