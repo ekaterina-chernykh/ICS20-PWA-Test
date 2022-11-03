@@ -23,8 +23,8 @@ function myButtonClicked() {
   const height = parseFloat(document.getElementById("height").value)
 
   // process
-  const volume =
+  const volume = 2
     // output
-    (document.getElementById("volume").innerHTML =
-      "Volume is: " + volume + "mm³")
+    document.getElementById("volume").innerHTML =
+      "Volume is: " + volume + "mm³"
 }
