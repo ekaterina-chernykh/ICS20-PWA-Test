@@ -24,7 +24,6 @@ function myButtonClicked() {
 
   // process
   const volume = 2
-    // output
-    document.getElementById("volume").innerHTML =
-      "Volume is: " + volume + "mm³"
+  // output
+  document.getElementById("volume").innerHTML = "Volume is: " + volume + "mm³"
 }
