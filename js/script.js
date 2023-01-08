@@ -7,7 +7,7 @@
 "use strict"
 
 /**
- * Check servie worker.
+ * Check service worker.
  */
 if (navigator.serviceWorker) {
   navigator.serviceWorker.register("/ICS20-PWA-Test/sw.js", {
